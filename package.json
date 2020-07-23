@@ -1,0 +1,23 @@
+{
+  "name": "recordCamera",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "serve-favicon": "^2.5.0",
+    "socket.io": "^2.3.0",
+    "kurento-client": "git+https://github.com/Kurento/kurento-client-js.git",
+    "minimist": "^1.1.1"
+  },
+  "devDependencies": {
+    "bower": "^1.4.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
